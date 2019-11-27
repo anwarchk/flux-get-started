@@ -47,7 +47,7 @@ spec:
         - --random-error=false
         env:
         - name: PODINFO_UI_MESSAGE
-          value: "Hello Flex!"
+          value: "Hello TMO"
         livenessProbe:
           httpGet:
             path: /healthz
